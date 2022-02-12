@@ -18,7 +18,7 @@ public class IHMQuestion2_1Test extends junit.framework.TestCase
         try{  
             Class.forName("question2.IHMQuestion2_1");
             Class.forName("question2.JButtonObserver");
-            //Class.forName("question2.JMouseObserver");
+            Class.forName("question2.JMouseObserver");
         }catch(ClassNotFoundException e){
             fail("classe absente " + e.getMessage());
         }
@@ -28,7 +28,7 @@ public class IHMQuestion2_1Test extends junit.framework.TestCase
     /**
      * Met en place les engagements.
      *
-     * MÃ©thode appelÃ©e avant chaque appel de mÃ©thode de test.
+     * Méthode appelée avant chaque appel de méthode de test.
      */
     protected void setUp() throws java.lang.Exception{
         f = new IHMQuestion2_1();

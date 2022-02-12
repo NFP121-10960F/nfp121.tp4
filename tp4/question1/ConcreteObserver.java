@@ -5,10 +5,10 @@ import java.util.Observer;
 import java.util.Stack;
 
 /**
- * DÃ©crivez votre classe ConcreteObserver ici.
+ * Décrivez votre classe ConcreteObserver ici.
  * 
  * @author (votre nom)
- * @version (un numÃ©ro de version ou une date)
+ * @version (un numéro de version ou une date)
  */
 public class ConcreteObserver implements Observer {
 
@@ -21,9 +21,9 @@ public class ConcreteObserver implements Observer {
 	}
 
 	/**
-	 * implÃ©mentation de la seule mÃ©thode de l'interface java.util.Observer Ã 
-	 * chaque exÃ©cution de cette mÃ©thode, celle-ci se contente d'empiler les
-	 * paramÃ¨tres transmis observable et arg respectivement dans 2 piles senders
+	 * implémentation de la seule méthode de l'interface java.util.Observer à
+	 * chaque exécution de cette méthode, celle-ci se contente d'empiler les
+	 * paramètres transmis observable et arg respectivement dans 2 piles senders
 	 * et arguments
 	 */
 	public void update(Observable observable, Object arg) {
